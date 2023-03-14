@@ -12,3 +12,8 @@ variable "resource" {
  type        = string
  description = "PATH of the Resource"
 }
+
+variable "http_method" {
+ type        = string
+ description = "Define HTTP Method"
+}
