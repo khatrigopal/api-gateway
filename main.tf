@@ -3,5 +3,5 @@ module "my_api_gateway" {
   #version  = "1.0.0"
   api_name = var.api_name
   protocol = var.protocol
-  path_part   = var.resource
+  resource   = var.resource
 }
