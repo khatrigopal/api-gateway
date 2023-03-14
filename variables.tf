@@ -7,7 +7,7 @@ variable "api_name" {
 variable "protocol" {
   type        = string
   description = "The protocol used by the API Gateway (HTTP or HTTPS)"
-  default = "HTTP"
+  default = ""
 }
 
 
