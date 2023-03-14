@@ -16,3 +16,8 @@ variable "resource" {
  description = "PATH of the Resource"
  default = ""
 }
+
+variable "http_method" {
+ type        = string
+ description = "Define HTTP Method"
+}
