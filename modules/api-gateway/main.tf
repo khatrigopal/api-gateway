@@ -2,7 +2,7 @@ resource "aws_api_gateway_rest_api" "api_gateway" {
   name        = var.api_name
   description = "API Gateway for ${var.api_name}"
   #protocol_type = var.protocol
-  protocol_type = var.protocol
+  protocol = var.protocol
 }
 
 resource "aws_api_gateway_resource" "resource" {
