@@ -3,7 +3,7 @@ variable "api_name" {
   description = "The name of the API Gateway"
 }
 
-variable "protocol" {
-  type        = string
-  description = "The protocol used by the API Gateway (HTTP or HTTPS)"
-}
+#variable "protocol" {
+ # type        = string
+  #description = "The protocol used by the API Gateway (HTTP or HTTPS)"
+#}
