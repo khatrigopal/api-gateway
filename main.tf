@@ -4,4 +4,5 @@ module "my_api_gateway" {
   api_name = var.api_name
   protocol = var.protocol
   resource   = "my-resource"
+  http_method = "POST"
 }
