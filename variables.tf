@@ -10,6 +10,7 @@ variable "protocol" {
   default = "HTTP"
 }
 
+
 variable "resource" {
  type        = string
  description = "PATH of the Resource"
