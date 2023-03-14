@@ -20,4 +20,5 @@ variable "resource" {
 variable "http_method" {
  type        = string
  description = "Define HTTP Method"
+ default = ""
 }
