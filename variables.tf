@@ -9,3 +9,4 @@ variable "protocol" {
   description = "The protocol used by the API Gateway (HTTP or HTTPS)"
   default = "HTTP"
 }
+
