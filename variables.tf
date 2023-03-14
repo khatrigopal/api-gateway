@@ -13,4 +13,5 @@ variable "protocol" {
 variable "resource" {
  type        = string
  description = "PATH of the Resource"
+ default = ""
 }
