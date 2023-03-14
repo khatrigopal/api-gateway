@@ -7,3 +7,8 @@ variable "protocol" {
  type        = string
   description = "The protocol used by the API Gateway (HTTP or HTTPS)"
 }
+
+variable "resource" {
+ type        = string
+  description = "PATH of the Resource"
+}
