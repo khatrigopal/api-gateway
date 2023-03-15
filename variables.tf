@@ -1,7 +1,8 @@
 variable "api_name" {
   type        = string
   description = "The name of the API Gateway"
-  default = "my-api-gateway"
+  #default = "my-api-gateway"
+  default = ""
 }
 
 variable "protocol" {
