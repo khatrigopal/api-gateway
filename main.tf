@@ -7,3 +7,4 @@ module "my_api_gateway" {
   resource   = "my-resource"
   http_method = "POST"
 }
+  
